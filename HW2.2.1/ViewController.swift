@@ -19,11 +19,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         colourfulView.layer.cornerRadius = 20
-        colourfulView.backgroundColor = .black
         
-        redSlider.value = 0.0
-        greenSlider.value = 0.0
-        blueSlider.value = 0.0
+        (redSlider.value, redNumberLabel.text) = startAppWithRandomValues(sliderValue: redSlider, numberValue: redLabel)
+        (greenSlider.value, greenNumberLabel.text) = startAppWithRandomValues(sliderValue: greenSlider, numberValue: greenLabel)
+        (blueSlider.value, blueNumberLabel.text) = startAppWithRandomValues(sliderValue: blueSlider, numberValue: blueLabel)
+        
+        colourfulView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1.0)
         
         redSlider.minimumTrackTintColor = .red
         redSlider.thumbTintColor = .red
@@ -49,6 +50,12 @@ class ViewController: UIViewController {
         colourfulView.backgroundColor = UIColor(red: CGFloat(redValue), green: CGFloat(greenValue), blue: CGFloat(blueValue), alpha: 1.0)
         
         return String(round(sliderValue.value * 100) / 100)
+    }
+    
+    func startAppWithRandomValues(sliderValue: UISlider, numberValue: UILabel) -> (Float, String) {
+        let resultSliderValue = round(Float.random(in: 0.0...1.0) * 100) / 100
+        
+        return (resultSliderValue, String(resultSliderValue))
     }
 }
 
