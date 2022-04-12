@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2276E9D7280575DE00F01302 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276E9D6280575DE00F01302 /* Colour.swift */; };
 		22D13D5827F98A37001E36CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D13D5727F98A37001E36CF /* AppDelegate.swift */; };
 		22D13D5A27F98A37001E36CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D13D5927F98A37001E36CF /* SceneDelegate.swift */; };
 		22D13D5C27F98A37001E36CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D13D5B27F98A37001E36CF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2276E9D6280575DE00F01302 /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colour.swift; path = ../../../Colour.swift; sourceTree = "<group>"; };
 		22D13D5427F98A37001E36CF /* HW2.6.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.6.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D13D5727F98A37001E36CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D13D5927F98A37001E36CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,9 +74,10 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2276E9D0280571E400F01302 /* Models */ = {
+		2276E9D5280575CC00F01302 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2276E9D6280575DE00F01302 /* Colour.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,7 +101,7 @@
 		22D13D5627F98A37001E36CF /* HW2.6.1 */ = {
 			isa = PBXGroup;
 			children = (
-				2276E9D0280571E400F01302 /* Models */,
+				2276E9D5280575CC00F01302 /* Models */,
 				2276E9CF280571D300F01302 /* Views */,
 				2276E9CE280571C700F01302 /* Controllers */,
 				2276E9CD280571BA00F01302 /* Assets */,
@@ -181,6 +184,7 @@
 				22D13D5C27F98A37001E36CF /* ViewController.swift in Sources */,
 				22D13D5827F98A37001E36CF /* AppDelegate.swift in Sources */,
 				22D13D5A27F98A37001E36CF /* SceneDelegate.swift in Sources */,
+				2276E9D7280575DE00F01302 /* Colour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
