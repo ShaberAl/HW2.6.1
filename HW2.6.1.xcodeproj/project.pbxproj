@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22D13D5427F98A37001E36CF /* HW2.2.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.2.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D13D5427F98A37001E36CF /* HW2.6.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.6.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D13D5727F98A37001E36CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D13D5927F98A37001E36CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22D13D5B27F98A37001E36CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,10 +37,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2276E9CC2805718E00F01302 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D6527F98A39001E36CF /* Info.plist */,
+				22D13D5927F98A37001E36CF /* SceneDelegate.swift */,
+				22D13D5727F98A37001E36CF /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2276E9CD280571BA00F01302 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D6027F98A39001E36CF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2276E9CE280571C700F01302 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D5B27F98A37001E36CF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2276E9CF280571D300F01302 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D6227F98A39001E36CF /* LaunchScreen.storyboard */,
+				22D13D5D27F98A37001E36CF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2276E9D0280571E400F01302 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		22D13D4B27F98A37001E36CF = {
 			isa = PBXGroup;
 			children = (
-				22D13D5627F98A37001E36CF /* HW2.2.1 */,
+				22D13D5627F98A37001E36CF /* HW2.6.1 */,
 				22D13D5527F98A37001E36CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +90,29 @@
 		22D13D5527F98A37001E36CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22D13D5427F98A37001E36CF /* HW2.2.1.app */,
+				22D13D5427F98A37001E36CF /* HW2.6.1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22D13D5627F98A37001E36CF /* HW2.2.1 */ = {
+		22D13D5627F98A37001E36CF /* HW2.6.1 */ = {
 			isa = PBXGroup;
 			children = (
-				22D13D5727F98A37001E36CF /* AppDelegate.swift */,
-				22D13D5927F98A37001E36CF /* SceneDelegate.swift */,
-				22D13D5B27F98A37001E36CF /* ViewController.swift */,
-				22D13D5D27F98A37001E36CF /* Main.storyboard */,
-				22D13D6027F98A39001E36CF /* Assets.xcassets */,
-				22D13D6227F98A39001E36CF /* LaunchScreen.storyboard */,
-				22D13D6527F98A39001E36CF /* Info.plist */,
+				2276E9D0280571E400F01302 /* Models */,
+				2276E9CF280571D300F01302 /* Views */,
+				2276E9CE280571C700F01302 /* Controllers */,
+				2276E9CD280571BA00F01302 /* Assets */,
+				2276E9CC2805718E00F01302 /* Support */,
 			);
-			path = HW2.2.1;
+			path = HW2.6.1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22D13D5327F98A37001E36CF /* HW2.2.1 */ = {
+		22D13D5327F98A37001E36CF /* HW2.6.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22D13D6827F98A39001E36CF /* Build configuration list for PBXNativeTarget "HW2.2.1" */;
+			buildConfigurationList = 22D13D6827F98A39001E36CF /* Build configuration list for PBXNativeTarget "HW2.6.1" */;
 			buildPhases = (
 				22D13D5027F98A37001E36CF /* Sources */,
 				22D13D5127F98A37001E36CF /* Frameworks */,
@@ -82,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = HW2.2.1;
+			name = HW2.6.1;
 			productName = HW2.2.1;
-			productReference = 22D13D5427F98A37001E36CF /* HW2.2.1.app */;
+			productReference = 22D13D5427F98A37001E36CF /* HW2.6.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22D13D4F27F98A37001E36CF /* Build configuration list for PBXProject "HW2.2.1" */;
+			buildConfigurationList = 22D13D4F27F98A37001E36CF /* Build configuration list for PBXProject "HW2.6.1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22D13D5327F98A37001E36CF /* HW2.2.1 */,
+				22D13D5327F98A37001E36CF /* HW2.6.1 */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +329,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G376QDA776;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HW2.2.1/Info.plist;
+				INFOPLIST_FILE = HW2.6.1/Support/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HW2.6.1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,7 +359,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G376QDA776;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HW2.2.1/Info.plist;
+				INFOPLIST_FILE = HW2.6.1/Support/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HW2.6.1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22D13D4F27F98A37001E36CF /* Build configuration list for PBXProject "HW2.2.1" */ = {
+		22D13D4F27F98A37001E36CF /* Build configuration list for PBXProject "HW2.6.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22D13D6627F98A39001E36CF /* Debug */,
@@ -350,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22D13D6827F98A39001E36CF /* Build configuration list for PBXNativeTarget "HW2.2.1" */ = {
+		22D13D6827F98A39001E36CF /* Build configuration list for PBXNativeTarget "HW2.6.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22D13D6927F98A39001E36CF /* Debug */,
